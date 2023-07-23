@@ -50,3 +50,23 @@ docker-compose up --build -d
 * PUT /service_areas/:id - Update a service area by ID
 * DELETE /service_areas/:id - Delete a service area by ID
 * GET /service_areas/query?lat=:latitude&lng=:longitude - Query service areas by latitude and longitude
+
+_Note: Refer to the API documentation available at <deployed_url>/docs for detailed API endpoint information._
+
+## ⚙️ Running Tests
+To run the tests, use the following command:
+```
+docker-compose exec web python manage.py test
+```
+
+## 📝 API Documentation
+Please refer to the API documentation generated with <your_choice_of_documentation_tool> available at <deployed_url>/docs.
+
+## 🚁 Deployment
+The application is deployed on AWS. Here is the link to access the live application: <aws_deployment_link>
+
+## 📬 Feedback
+If you have any feedback or issues, please open a GitHub issue under this repository.
+
+## 👩‍💻 Developer
+Junior - csf.junior90@gmail.com
