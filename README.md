@@ -1,10 +1,11 @@
-# 🚀 Mozio Backend Project 🌍
-Mozio Backend Project is a RESTful API service built with Django REST Framework. It enables transportation providers to define and alter their service areas dynamically as custom polygons. This project is designed to streamline Mozio's international expansion by simplifying integration with various transportation suppliers.
+# 🚀 GeoDjango Backend Project 🌍
+GeoDjango Backend Project is a RESTful API service built with Django REST Framework. It enables transportation providers to define and alter their service areas dynamically as custom polygons.
 
 ## 🛠 Tech Stack
 * 🐍 Python
 * 🔵 Django REST Framework
 * 🌐 GeoDjango
+* 🌱 Celery
 * 🐘 PostgreSQL
 * 🔺 PostGIS
 * 📦 Docker
@@ -21,8 +22,8 @@ Mozio Backend Project is a RESTful API service built with Django REST Framework.
 ## 🚀 Getting Started
 1. Clone the repo
 ```
-git clone https://github.com/your-github-user/mozio-backend-project.git
-cd mozio-backend-project
+git clone git@github.com:JuniorGunner/drf_geodjango_api.git
+cd drf_geodjango_api
 ```
 
 2. Setup Environment Variables
@@ -30,7 +31,7 @@ Create a .env file in the root directory and setup your environment variables. E
 ```
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=yourpassword
-POSTGRES_DB=mozio_db
+POSTGRES_DB=geodjango_db
 ```
 
 3. Start the project
@@ -51,7 +52,7 @@ docker-compose up --build -d
 * DELETE /service_areas/:id - Delete a service area by ID
 * GET /service_areas/query?lat=:latitude&lng=:longitude - Query service areas by latitude and longitude
 
-_Note: Refer to the API documentation available at <deployed_url>/docs for detailed API endpoint information._
+<!--_Note: Refer to the API documentation available at <deployed_url>/docs for detailed API endpoint information._
 
 ## ⚙️ Running Tests
 To run the tests, use the following command:
@@ -59,7 +60,7 @@ To run the tests, use the following command:
 docker-compose exec web python manage.py test
 ```
 
-## 📝 API Documentation
+ ## 📝 API Documentation
 Please refer to the API documentation generated with <your_choice_of_documentation_tool> available at <deployed_url>/docs.
 
 ## 🚁 Deployment
@@ -69,4 +70,4 @@ The application is deployed on AWS. Here is the link to access the live applicat
 If you have any feedback or issues, please open a GitHub issue under this repository.
 
 ## 👩‍💻 Developer
-Junior - csf.junior90@gmail.com
+Junior - csf.junior90@gmail.com -->
